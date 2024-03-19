@@ -42,6 +42,7 @@ const fs = require("fs");
 
 const os = require("os");
 
-const freememomry = os.freemem();
+console.log(os.hostname());
+// const freememomry = os.freemem();
 
-console.log(`${freememomry / 1024 / 1024 / 1024 / 1024}`);
+// console.log(`${freememomry / 1024 / 1024 / 1024 / 1024}`);
